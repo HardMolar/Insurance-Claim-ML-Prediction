@@ -86,7 +86,7 @@ Before analysis, the following data preparation steps were required:
      plt.savefig('Distribution of Insurance Claims.png', dpi=300, bbox_inches='tight')
      plt.show()
      ```
-   <img width="794" height="445" alt="HD1" src="https://github.com/user-attachments/assets/1958c2bb-6d8b-48a7-9ae9-ac7feea15dae" />
+   <img width="794" height="445" alt="HD1" src="(https://github.com/HardMolar/AINOW-INCUBATOR-HUB-INSURANCE-CLAIM-CAPSTONE-PROJECT/blob/9604f7e7e38381acf60732833983629734377e0a/Visuals/Distribution%20of%20Insurance%20Claims.png)" />
 
   
    * Distribution of outliers in the variables Bilding_Types, Building_Dimension and Building_Age. 
