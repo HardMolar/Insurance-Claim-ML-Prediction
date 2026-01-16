@@ -1,5 +1,5 @@
-# INSURANCE CLAIM PREDICTION PROJECT
-This is a machine learning project to predict building claims for an Insurance company 
+# INSURANCE CLAIM PREDICTION
+This is a machine learning project to predict building claim for an Insurance company 
 
 ## 📌 Case Study Overview
 As the Lead Data Analyst of an insurance company, I’ve been saddled with the responsibility to build a predictive model to determine if a building will have an insurance claim during a certain period or not. Our goal is to identify patterns associated with claim occurrence and improve risk assessment for insurance providers.
