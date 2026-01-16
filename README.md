@@ -138,10 +138,7 @@ Insurance_Train_Data = cap_outliers(Insurance_Train_Data, num_cols)
 print("Outliers have been capped successfully.")
 ```
 
-   ![Distribution of Outliers](https://github.com/HardMolar/AINOW-INCUBATOR-HUB-INSURANCE-CLAIM-CAPSTONE-PROJECT/blob/9604f7e7e38381acf60732833983629734377e0a/Visuals/Distribution%20of%20Insurance%20Claims.png?raw=true")
-
-
-    ![Distribution of Building Dimensions by Claim Status](https://github.com/HardMolar/AINOW-INCUBATOR-HUB-INSURANCE-CLAIM-CAPSTONE-PROJECT/blob/9604f7e7e38381acf60732833983629734377e0a/Visuals/Distribution%20of%20Insurance%20Claims.png?raw=true")
+   ![Distribution of Outliers](https://github.com/HardMolar/AINOW-INCUBATOR-HUB-INSURANCE-CLAIM-CAPSTONE-PROJECT/blob/f16b65d94ee5ba51156e221e1b3c164ce561d9ee/Visuals/Distribution%20of%20Outliers.png?raw=true")
 
    
    * Bivariate analysis:
@@ -151,19 +148,20 @@ print("Outliers have been capped successfully.")
 	  There is a symmetrical progression down from building type 1 to 4. This means my hypothesis is correct. Old buildings are riskier.
 	  If they are the same: Age might not be as important as other factors like Building_Dimension.
 
-<img width="794" height="445" alt="HD1" src="https://github.com/user-attachments/assets/1958c2bb-6d8b-48a7-9ae9-ac7feea15dae" />
+ ![Percentage Claims by Bulbing Types](https://github.com/HardMolar/AINOW-INCUBATOR-HUB-INSURANCE-CLAIM-CAPSTONE-PROJECT/blob/f16b65d94ee5ba51156e221e1b3c164ce561d9ee/Visuals/Percentage%20of%20Claims%20by%20Building%20Type.png?raw=true")
 
 
   * Distribution of Building_Age vs Claim. 
 Visualized this using violin plot, so as to graphically view if the risk is higher for very old buildings or new ones.
 
- <img width="794" height="445" alt="HD1" src="https://github.com/user-attachments/assets/1958c2bb-6d8b-48a7-9ae9-ac7feea15dae" />
+ ![Building Age by Claim](https://github.com/HardMolar/AINOW-INCUBATOR-HUB-INSURANCE-CLAIM-CAPSTONE-PROJECT/blob/f16b65d94ee5ba51156e221e1b3c164ce561d9ee/Visuals/Building%20Age%20vs%20Claims.png?raw=true")
+
 
  
   * Bulding Dimension vs Age
 Scatterplot to visualize the analysis of relationship between the two variables. This is important to ensure that there is no redundant data (Multi-collinearity)
 
- <img width="794" height="445" alt="HD1" src="https://github.com/user-attachments/assets/1958c2bb-6d8b-48a7-9ae9-ac7feea15dae" />
+  ![Building Dimension by Age](https://github.com/HardMolar/AINOW-INCUBATOR-HUB-INSURANCE-CLAIM-CAPSTONE-PROJECT/blob/f16b65d94ee5ba51156e221e1b3c164ce561d9ee/Visuals/Building%20Age%20vs%20Building%20Dimension.png?raw=true")
 
 
 
@@ -194,7 +192,7 @@ Insurance_Train_Data['building_type'] = le.fit_transform(Insurance_Train_Data['b
 This mathematically shows the correlation between out target(Claim) and every other numeric variables.
 Helps to focus on the variables that actually move the needle for the insurance company.
 
- <img width="794" height="445" alt="HD1" src="https://github.com/user-attachments/assets/1958c2bb-6d8b-48a7-9ae9-ac7feea15dae" />
+   ![Building Dimension by Age](https://github.com/HardMolar/AINOW-INCUBATOR-HUB-INSURANCE-CLAIM-CAPSTONE-PROJECT/blob/f16b65d94ee5ba51156e221e1b3c164ce561d9ee/Visuals/Correlation%20Matrix.png?raw=true")
 
 
  * Feature selection
