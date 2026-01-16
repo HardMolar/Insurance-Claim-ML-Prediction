@@ -175,7 +175,6 @@ Used mapping technique for categorical columns like
   ** Garden
   ** Settlment
   ** For categorical column that has more than 2 variables, ( Building_Type), I used  LabelEncoder to encode the variables from categorical to numeric
-
   ```python
 #Mapping some of the cartegorical coliumns
 Insurance_Train_Data['building_painted'] = Insurance_Train_Data['building_painted'].map({'N': 1, 'V': 1})
@@ -188,11 +187,14 @@ from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 Insurance_Train_Data['building_type'] = le.fit_transform(Insurance_Train_Data['building_type'].astype(str))
 ```
- *Correlation Matrix Heat Map
+
+ * Correlation Matrix Heat Map
 This mathematically shows the correlation between out target(Claim) and every other numeric variables.
 Helps to focus on the variables that actually move the needle for the insurance company.
 
-   ![Building Dimension by Age](https://github.com/HardMolar/AINOW-INCUBATOR-HUB-INSURANCE-CLAIM-CAPSTONE-PROJECT/blob/f16b65d94ee5ba51156e221e1b3c164ce561d9ee/Visuals/Correlation%20Matrix.png?raw=true")
+![Correlation Matrix](Visuals/Correlation%20Matrix.png)
+
+
 
 
  * Feature selection
