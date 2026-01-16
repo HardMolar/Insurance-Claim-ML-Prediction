@@ -1,4 +1,4 @@
-# INSURANCE CLAIMS PREDICTION PROJECT
+# INSURANCE CLAIM PREDICTION PROJECT
 This is a machine learning project to predict building claims for an Insurance company 
 
 ## 📌 Case Study Overview
